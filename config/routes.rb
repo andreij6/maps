@@ -1,4 +1,6 @@
 Maps::Application.routes.draw do
+  get "ashdown/index"
+
   get "split/index"
 
   root to: "taylor#index"

@@ -1,5 +1,5 @@
 module ApplicationHelper
   def opening_para
-    return "This is it"
+    return "Southwest Arkansas Planning and Developement Districts Water and Sewer system Mapping program"
   end
 end

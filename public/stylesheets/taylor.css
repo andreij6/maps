@@ -6,11 +6,15 @@ html, body {
 #fullHeight {
   height: 70%;
   padding: 0px;
-  margin: 0px;
+  margin-right: -10px;
 }
 
 #mapDiv {
 	height: 100%;
+}
+
+hgroup h1 {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
 }
 
 #HomeButton {
@@ -23,8 +27,17 @@ html, body {
 .jumbotron {
 	margin-bottom: 0px;
 	text-align: center;
+	background-color: #2980b9;
+	color: #ecf0f1;
 }
 
+.jumbotron h1 {
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+div.container {
+	height: 100%;
+}
 .wrapper {
 	height: 100%;
 }
@@ -34,4 +47,7 @@ section {
 	overflow: auto;
 }
 
-
+footer.jumbotron {
+	border-top: 1px solid grey;
+	text-align: left;
+}
